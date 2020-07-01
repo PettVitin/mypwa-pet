@@ -1,0 +1,35 @@
+<div class="row mt-3 justify-content-center">
+    <div class="col-11 col-md-4">
+        <div class="card shadow">
+            <div class="card-header">
+                <img src="img/formulario.jpg" alt="e-task" class="img-fluid">
+            </div>
+            <div class="card-body">
+                <form id="add-usuario">
+                    <div class="form-group">
+                        <label>Nome do usuário</label>
+                        <input type="text" name="nome" id="nome" class="form-control" placeholder="Victor Hugo">
+                    </div>
+                    <div class="form-group">
+                        <label>Login</label>
+                        <input type="text" name="login" id="login" class="form-control" placeholder="victorhugo@github.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Senha</label>
+                        <input type="password" name="senha" id="senha" class="form-control">
+                        <div class="alert alert-warning" role="alert">
+                            A senha precisa conter letra maiuscula e minuscula. <br> Ex: Etec123
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-end">
+                        <div class="col-6">
+                            <button class="btn btn-success btn-block btn-save">Salvar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="src/usuario/controle/save-usuario.js"></script>

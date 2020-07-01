@@ -1,0 +1,10 @@
+.bg-banner {
+    background: url('../img/jumbotrom.png');
+    background-position: center center;
+    background-size: cover;
+    min-height: 25rem;
+}
+
+.text-title {
+    color: #CD6600;
+}
